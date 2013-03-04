@@ -7,3 +7,9 @@
 [submodule "plugins/yasnippet"]
 	path = plugins/yasnippet
 	url = git://github.com/capitaomorte/yasnippet.git
+[submodule "plugins/judge-indent"]
+	path = plugins/judge-indent
+	url = git://github.com/yascentur/judge-indent-el.git
+[submodule "plugins/highlight-indentation"]
+	path = plugins/highlight-indentation
+	url = git://github.com/antonj/Highlight-Indentation-for-Emacs.git

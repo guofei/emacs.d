@@ -15,3 +15,7 @@
 (require 'init-autocomplete)
 
 (require 'init-yasnippet)
+
+;; (require 'init-judgeindent)
+
+(require 'init-highlightindentation)
