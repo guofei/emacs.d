@@ -10,3 +10,8 @@
   (load custom-file))
 
 (require 'init-anything)
+
+(require 'init-popup)
+(require 'init-autocomplete)
+
+(require 'init-yasnippet)
