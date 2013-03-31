@@ -44,6 +44,6 @@
                (define-key c-mode-base-map "\C-m" 'newline-and-indent)))
 
 ;; c mode
-(add-hook 'c-mode-hook
-          '(lambda ()
-             (c-set-style "linux")))
+;;(add-hook 'c-mode-hook
+;;          '(lambda ()
+;;             (c-set-style "linux")))

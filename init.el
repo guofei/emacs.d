@@ -17,6 +17,6 @@
 
 (require 'init-yasnippet)
 
-;;(require 'init-judgeindent)
+(require 'init-judgeindent)
 
 (require 'init-highlightindentation)
