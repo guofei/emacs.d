@@ -13,3 +13,6 @@
 [submodule "plugins/highlight-indentation"]
 	path = plugins/highlight-indentation
 	url = git://github.com/antonj/Highlight-Indentation-for-Emacs.git
+[submodule "plugins/yasnippet-snippets"]
+	path = plugins/yasnippet-snippets
+	url = git://github.com/AndreaCrotti/yasnippet-snippets.git
