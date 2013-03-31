@@ -16,10 +16,6 @@
 (require 'init-autocomplete)
 
 (require 'init-yasnippet)
-(setq yas-snippet-dirs
-      '("~/.emacs.d/plugins/yasnippet-snippets"
-        ))
-(yas-global-mode 1)
 
 ;;(require 'init-judgeindent)
 
