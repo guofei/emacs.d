@@ -17,6 +17,13 @@
 
 (require 'init-yasnippet)
 
-(require 'init-judgeindent)
-
 (require 'init-highlightindentation)
+
+;;(require 'init-judgeindent)
+
+;; requre Mac OS X
+(if (eq system-type 'darwin)
+    ;; mac gud
+    (require 'init-gud)
+)
+

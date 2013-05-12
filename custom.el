@@ -44,6 +44,16 @@
                (define-key c-mode-base-map "\C-m" 'newline-and-indent)))
 
 ;; c mode
-;;(add-hook 'c-mode-hook
-;;          '(lambda ()
-;;             (c-set-style "linux")))
+(add-hook 'c-mode-hook
+          '(lambda ()
+             (c-set-style "linux")))
+
+(add-hook 'c++-mode-hook
+          '(lambda ()
+             (c-set-style "linux")))
+
+(defun hilite-todos ()
+  (highlight-lines-matching-regexp "\\<\\(FIXME\\|WRITEME\\|WRITEME!\\|TODO\\|BUG\\):?" 
+       'hi-green-b)
+)
+(add-hook 'c-mode-common-hook 'hilite-todos)
