@@ -19,6 +19,8 @@
 
 (require 'init-highlightindentation)
 
+(require 'init-global)
+
 ;;(require 'init-judgeindent)
 
 ;; requre Mac OS X
