@@ -16,3 +16,6 @@
 [submodule "plugins/yasnippet-snippets"]
 	path = plugins/yasnippet-snippets
 	url = git://github.com/AndreaCrotti/yasnippet-snippets.git
+[submodule "plugins/rails-minor-mode"]
+	path = plugins/rails-minor-mode
+	url = git://github.com/remvee/emacs-rails.git

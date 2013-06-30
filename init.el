@@ -21,6 +21,8 @@
 
 (require 'init-global)
 
+(require 'init-emacs-rails)
+
 ;;(require 'init-judgeindent)
 
 ;; requre Mac OS X
