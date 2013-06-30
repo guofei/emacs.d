@@ -23,6 +23,8 @@
 
 (require 'init-emacs-rails)
 
+(require 'init-rhtml-mode)
+
 ;;(require 'init-judgeindent)
 
 ;; requre Mac OS X
