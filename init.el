@@ -25,6 +25,8 @@
 
 (require 'init-rhtml-mode)
 
+(require 'init-yaml-mode)
+
 ;;(require 'init-judgeindent)
 
 ;; requre Mac OS X
