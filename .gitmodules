@@ -25,3 +25,6 @@
 [submodule "plugins/yaml-mode"]
 	path = plugins/yaml-mode
 	url = git@github.com:yoshiki/yaml-mode.git
+[submodule "plugins/yasnippets-rails"]
+	path = plugins/yasnippets-rails
+	url = git@github.com:eschulte/yasnippets-rails.git
