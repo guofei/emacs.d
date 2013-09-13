@@ -11,7 +11,6 @@
 (global-set-key "\M-*" 'gtags-pop-stack)    ;前のバッファに戻る
 (add-hook 'c-mode-common-hook
           '(lambda ()
-             (gtags-mode 1)
-             (gtags-make-complete-list)))
+             (gtags-mode 1)))
 
 (provide 'init-global)

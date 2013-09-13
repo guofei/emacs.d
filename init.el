@@ -27,6 +27,8 @@
 
 (require 'init-yaml-mode)
 
+(require 'init-member-functions)
+
 ;;(require 'init-judgeindent)
 
 ;; requre Mac OS X
