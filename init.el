@@ -29,6 +29,8 @@
 
 (require 'init-member-functions)
 
+(require 'init-multiple-cursors)
+
 ;;(require 'init-judgeindent)
 
 ;; requre Mac OS X
