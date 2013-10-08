@@ -50,10 +50,12 @@
 
 (add-hook 'c++-mode-hook
           '(lambda ()
-             (c-set-style "linux")))
+             (c-set-style "linux")
+	     (c-set-offset 'innamespace 0)))
 
 (defun hilite-todos ()
   (highlight-lines-matching-regexp "\\<\\(FIXME\\|WRITEME\\|WRITEME!\\|TODO\\|BUG\\):?" 
        'hi-green-b)
 )
 (add-hook 'c-mode-common-hook 'hilite-todos)
+
