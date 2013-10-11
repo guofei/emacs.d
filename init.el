@@ -19,7 +19,7 @@
 
 (require 'init-highlightindentation)
 
-(require 'init-global)
+;;(require 'init-global)
 
 (require 'init-emacs-rails)
 
