@@ -1,3 +1,5 @@
 *~
 *.dat
 eshell
+.mc-lists.el
+elpa/
