@@ -1,10 +1,10 @@
 (add-to-list 'load-path "~/.emacs.d/plugins/helm")
 (require 'helm-config)
 
-(require 'popwin)
-(setq display-buffer-function 'popwin:display-buffer)
 (setq helm-split-window-default-side 'right)
-(push '("^\*helm .+\*$" :regexp t) popwin:special-display-config)
+;;(require 'popwin)
+;;(setq display-buffer-function 'popwin:display-buffer)
+;;(push '("^\*helm .+\*$" :regexp t) popwin:special-display-config)
 
 (defun helm-my-buffers ()
   (interactive)
