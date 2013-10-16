@@ -38,23 +38,27 @@
 (set-face-background 'show-paren-match-face "gray10")
 (set-face-foreground 'show-paren-match-face "SkyBlue")
 
+;; c mode
+(add-hook 'c-mode-hook
+          '(lambda ()
+             (c-set-style "linux")
+	     (c-set-offset 'inextern-lang 0)
+	     ))
+
+;; c++ mode
+(add-hook 'c++-mode-hook
+          '(lambda ()
+             (c-set-style "linux")
+	     (c-set-offset 'inextern-lang 0)
+	     (c-set-offset 'innamespace 0)))
+
 ;; c common mode
 (add-hook 'c-mode-common-hook
             '(lambda ()
                (define-key c-mode-base-map "\C-m" 'newline-and-indent)))
 
-;; c mode
-(add-hook 'c-mode-hook
-          '(lambda ()
-             (c-set-style "linux")))
-
-(add-hook 'c++-mode-hook
-          '(lambda ()
-             (c-set-style "linux")
-	     (c-set-offset 'innamespace 0)))
-
 (defun hilite-todos ()
-  (highlight-lines-matching-regexp "\\<\\(FIXME\\|WRITEME\\|WRITEME!\\|TODO\\|BUG\\):?" 
+  (highlight-lines-matching-regexp "\\<\\(FIXME\\|WRITEME\\|WRITEME!\\|TODO\\|WARNING\\|BUG\\):?" 
        'hi-green-b)
 )
 (add-hook 'c-mode-common-hook 'hilite-todos)
