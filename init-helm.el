@@ -2,9 +2,9 @@
 (require 'helm-config)
 
 (setq helm-split-window-default-side 'right)
-;;(require 'popwin)
-;;(setq display-buffer-function 'popwin:display-buffer)
-;;(push '("^\*helm .+\*$" :regexp t) popwin:special-display-config)
+(require 'popwin)
+(setq display-buffer-function 'popwin:display-buffer)
+(push '("^\*helm .+\*$" :regexp t) popwin:special-display-config)
 
 (defun helm-my-buffers ()
   (interactive)
