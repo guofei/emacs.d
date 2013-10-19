@@ -27,6 +27,7 @@
 (require 'init-helm-gtags)
 
 (require 'init-emacs-rails)
+(require 'init-helm-rails)
 
 (require 'init-rhtml-mode)
 

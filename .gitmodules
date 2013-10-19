@@ -43,3 +43,6 @@
 [submodule "plugins/popwin"]
 	path = plugins/popwin
 	url = https://github.com/m2ym/popwin-el.git
+[submodule "plugins/helm-rails"]
+	path = plugins/helm-rails
+	url = https://github.com/asok/helm-rails.git
