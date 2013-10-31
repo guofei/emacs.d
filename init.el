@@ -33,6 +33,8 @@
 
 (require 'init-multiple-cursors)
 
+(require 'init-highlight-parentheses)
+
 ;;(require 'init-judgeindent)
 
 ;; requre Mac OS X

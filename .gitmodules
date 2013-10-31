@@ -46,3 +46,6 @@
 [submodule "plugins/helm-rails"]
 	path = plugins/helm-rails
 	url = https://github.com/asok/helm-rails.git
+[submodule "plugins/highlight-parentheses"]
+	path = plugins/highlight-parentheses
+	url = https://github.com/nschum/highlight-parentheses.el.git
