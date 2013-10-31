@@ -35,7 +35,7 @@
 ;; show "()"
 (show-paren-mode t)
 (setq show-paren-style 'mixed)
-(set-face-background 'show-paren-match-face "gray10")
+(set-face-background 'show-paren-match-face "gray")
 (set-face-foreground 'show-paren-match-face "SkyBlue")
 
 ;; c mode
@@ -62,4 +62,3 @@
        'hi-green-b)
 )
 (add-hook 'c-mode-common-hook 'hilite-todos)
-

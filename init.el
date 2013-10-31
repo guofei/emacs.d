@@ -13,8 +13,6 @@
 
 (require 'init-helm)
 
-;;(require 'init-helm-etags)
-
 (require 'init-popup)
 
 (require 'init-autocomplete)
@@ -23,14 +21,12 @@
 
 (require 'init-highlightindentation)
 
-;;(require 'init-global)
+;;(require 'init-helm-etags)
 (require 'init-helm-gtags)
 
 (require 'init-emacs-rails)
 (require 'init-helm-rails)
-
 (require 'init-rhtml-mode)
-
 (require 'init-yaml-mode)
 
 (require 'init-member-functions)
@@ -40,8 +36,8 @@
 ;;(require 'init-judgeindent)
 
 ;; requre Mac OS X
-(if (eq system-type 'darwin)
+;;(if (eq system-type 'darwin)
     ;; mac gud
-    (require 'init-gud)
-)
+    ;;(require 'init-gud)
+;;)
 
