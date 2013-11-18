@@ -49,3 +49,6 @@
 [submodule "plugins/highlight-parentheses"]
 	path = plugins/highlight-parentheses
 	url = https://github.com/nschum/highlight-parentheses.el.git
+[submodule "plugins/coffee-mode"]
+	path = plugins/coffee-mode
+	url = https://github.com/defunkt/coffee-mode.git

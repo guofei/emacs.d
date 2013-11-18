@@ -28,6 +28,7 @@
 (require 'init-helm-rails)
 (require 'init-rhtml-mode)
 (require 'init-yaml-mode)
+(require 'init-coffee-mode)
 
 (require 'init-member-functions)
 
