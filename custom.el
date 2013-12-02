@@ -58,7 +58,10 @@
                (define-key c-mode-base-map "\C-m" 'newline-and-indent)))
 
 (defun hilite-todos ()
-  (highlight-lines-matching-regexp "\\<\\(FIXME\\|WRITEME\\|WRITEME!\\|TODO\\|WARNING\\|BUG\\):?" 
+  (highlight-lines-matching-regexp "\\<\\(FIXME\\|WRITEME\\|WRITEME!\\|TODO\\|WARNING\\|BUG\\):?"
        'hi-green-b)
 )
 (add-hook 'c-mode-common-hook 'hilite-todos)
+
+;; M-x flyspell
+(setq-default ispell-program-name "aspell")

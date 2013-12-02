@@ -16,5 +16,6 @@
                      "*helm-my-buffers*"))
 
 (define-key global-map (kbd "C-x a") 'helm-my-buffers)
+;;search all files : helm-for-files
 
 (provide 'init-helm)
