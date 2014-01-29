@@ -29,6 +29,7 @@
 (require 'init-rhtml-mode)
 (require 'init-yaml-mode)
 (require 'init-coffee-mode)
+(require 'init-golang)
 
 (require 'init-member-functions)
 
@@ -44,3 +45,7 @@
     ;;(require 'init-gud)
 ;;)
 
+(require 'package)
+(add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/") t)
+(add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
+(package-initialize)
