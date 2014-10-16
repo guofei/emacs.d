@@ -5,8 +5,7 @@ emacs.d
 
     git clone https://github.com/guofei/emacs.d.git .emacs.d
     cd .emacs.d
-    git submodule init
-    git submodule update
+	git submodule update --init --recursive
 
     M-x package-install go-mode
     go get code.google.com/p/rog-go/exp/cmd/godef
