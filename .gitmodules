@@ -22,9 +22,6 @@
 [submodule "plugins/yaml-mode"]
 	path = plugins/yaml-mode
 	url = https://github.com/yoshiki/yaml-mode.git
-[submodule "plugins/yasnippets-rails"]
-	path = plugins/yasnippets-rails
-	url = https://github.com/eschulte/yasnippets-rails.git
 [submodule "plugins/multiple-cursors"]
 	path = plugins/multiple-cursors
 	url = https://github.com/magnars/multiple-cursors.el.git
