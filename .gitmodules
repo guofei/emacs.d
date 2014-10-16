@@ -46,3 +46,6 @@
 [submodule "plugins/coffee-mode"]
 	path = plugins/coffee-mode
 	url = https://github.com/defunkt/coffee-mode.git
+[submodule "plugins/yasnippets-rails"]
+	path = plugins/yasnippets-rails
+	url = https://github.com/eschulte/yasnippets-rails.git
