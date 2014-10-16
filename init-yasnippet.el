@@ -4,6 +4,7 @@
 (setq yas-snippet-dirs
       '("~/.emacs.d/plugins/yasnippet-snippets"
 	"~/.emacs.d/plugins/yasnippets-rails/rails-snippets"
+        "~/.emacs.d/plugins/yasnippet/snippets"
 	))
 (yas-global-mode 1)
 
