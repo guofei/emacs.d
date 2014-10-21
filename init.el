@@ -1,11 +1,11 @@
 ;;; This file bootstraps the configuration, which is divided into
 ;;; a number of other files.
-(add-to-list 'load-path (expand-file-name "~/.emacs.d"))
+(add-to-list 'load-path (expand-file-name "~/.emacs.d/lisp"))
 
 ;;----------------------------------------------------------------------------
 ;; Variables configured via the interactive 'customize' interface
 ;;----------------------------------------------------------------------------
-(setq custom-file "~/.emacs.d/custom.el")
+(setq custom-file "~/.emacs.d/lisp/custom.el")
 (when (file-exists-p custom-file)
   (load custom-file))
 
@@ -24,7 +24,7 @@
 ;;(require 'init-helm-etags)
 (require 'init-helm-gtags)
 
-;;(require 'init-emacs-rails)
+(require 'init-emacs-rails)
 (require 'init-helm-rails)
 (require 'init-rhtml-mode)
 (require 'init-yaml-mode)
