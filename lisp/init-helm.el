@@ -1,4 +1,5 @@
 (add-to-list 'load-path "~/.emacs.d/plugins/helm")
+(require 'helm)
 (require 'helm-config)
 
 (when (require 'popwin)
