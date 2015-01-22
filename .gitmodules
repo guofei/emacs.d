@@ -52,3 +52,6 @@
 [submodule "plugins/emmet-mode"]
 	path = plugins/emmet-mode
 	url = https://github.com/smihica/emmet-mode.git
+[submodule "plugins/web-mode"]
+	path = plugins/web-mode
+	url = https://github.com/fxbois/web-mode.git
