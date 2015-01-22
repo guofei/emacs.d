@@ -21,12 +21,12 @@
 
 (require 'init-highlightindentation)
 
-;;(require 'init-helm-etags)
 (require 'init-helm-gtags)
 
 (require 'init-emacs-rails)
 (require 'init-helm-rails)
 (require 'init-rhtml-mode)
+(require 'init-emmet-mode)
 (require 'init-yaml-mode)
 (require 'init-coffee-mode)
 (require 'init-golang)
