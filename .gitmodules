@@ -55,3 +55,9 @@
 [submodule "plugins/web-mode"]
 	path = plugins/web-mode
 	url = https://github.com/fxbois/web-mode.git
+[submodule "plugins/ac-emmet"]
+	path = plugins/ac-emmet
+	url = https://github.com/yasuyk/ac-emmet.git
+[submodule "plugins/visual-regexp"]
+	path = plugins/visual-regexp
+	url = https://github.com/benma/visual-regexp.el.git
