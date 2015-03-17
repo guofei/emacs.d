@@ -21,6 +21,8 @@
 
 (require 'init-yasnippet)
 
+(require 'init-clang-complete)
+
 (require 'init-highlightindentation)
 
 (require 'init-helm-gtags)

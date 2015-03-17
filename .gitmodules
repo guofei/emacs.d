@@ -61,3 +61,9 @@
 [submodule "plugins/visual-regexp"]
 	path = plugins/visual-regexp
 	url = https://github.com/benma/visual-regexp.el.git
+[submodule "plugins/auto-complete-clang"]
+	path = plugins/auto-complete-clang
+	url = git@github.com:brianjcj/auto-complete-clang.git
+[submodule "plugins/emacs-clang-complete-async"]
+	path = plugins/emacs-clang-complete-async
+	url = git@github.com:Golevka/emacs-clang-complete-async.git
