@@ -2,13 +2,14 @@
 
 (require 'auto-complete-clang-async)
 
-(defun ac-cc-mode-setup ()
+(defun ac-clang-mode-setup ()
   (setq ac-clang-complete-executable "~/.emacs.d/plugins/emacs-clang-complete-async/clang-complete")
-  (setq ac-sources '(ac-source-clang-async))
+  (setq ac-sources
+	(append '(ac-source-clang-async) ac-sources))
   (ac-clang-launch-completion-process))
 
 (defun clang-ac-config ()
-  (add-hook 'c-mode-common-hook 'ac-cc-mode-setup)
+  (add-hook 'c-mode-common-hook 'ac-clang-mode-setup)
   (add-hook 'auto-complete-mode-hook 'ac-common-setup)
   (global-auto-complete-mode t))
 
