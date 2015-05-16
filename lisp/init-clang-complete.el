@@ -4,9 +4,9 @@
 
 (defun ac-clang-mode-setup ()
   (setq ac-clang-complete-executable "~/.emacs.d/plugins/emacs-clang-complete-async/clang-complete")
-  ;;(setq ac-sources
-  ;;	(append '(ac-source-clang-async) ac-sources))
-  (setq ac-sources '(ac-source-clang-async))
+  (setq ac-sources
+  	(append '(ac-source-clang-async) ac-sources))
+  ;; (setq ac-sources '(ac-source-clang-async))
   (ac-clang-launch-completion-process))
 
 (defun clang-ac-config ()
