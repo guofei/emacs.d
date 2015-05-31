@@ -1,14 +1,14 @@
 (custom-set-variables
-  ;; custom-set-variables was added by Custom.
-  ;; If you edit it by hand, you could mess it up, so be careful.
-  ;; Your init file should contain only one such instance.
-  ;; If there is more than one, they won't work right.
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
  '(inhibit-startup-screen t))
 (custom-set-faces
-  ;; custom-set-faces was added by Custom.
-  ;; If you edit it by hand, you could mess it up, so be careful.
-  ;; Your init file should contain only one such instance.
-  ;; If there is more than one, they won't work right.
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
  )
 
 ;; transient-mark-mode on
@@ -54,14 +54,29 @@
 
 ;; c common mode
 (add-hook 'c-mode-common-hook
-            '(lambda ()
-               (define-key c-mode-base-map "\C-m" 'newline-and-indent)))
+	  '(lambda ()
+	     (define-key c-mode-base-map "\C-m" 'newline-and-indent)))
 
 (defun hilite-todos ()
   (highlight-lines-matching-regexp "\\<\\(FIXME\\|WRITEME\\|WRITEME!\\|TODO\\|WARNING\\|BUG\\):?"
-       'hi-green-b)
-)
+				   'hi-green-b)
+  )
 (add-hook 'c-mode-common-hook 'hilite-todos)
 
 ;; M-x flyspell
 (setq-default ispell-program-name "aspell")
+
+;; CEDET
+(semantic-mode 1)
+(global-ede-mode 1)
+(global-semantic-idle-scheduler-mode 1)
+(defun semantic-auto-complete()
+  (add-to-list 'ac-sources 'ac-source-semantic))
+(add-hook 'c-mode-common-hook 'semantic-auto-complete)
+
+;; define function to shutdown emacs server instance
+(defun server-shutdown ()
+  "Save buffers, Quit, and Shutdown (kill) server"
+  (interactive)
+  (save-some-buffers)
+  (kill-emacs))

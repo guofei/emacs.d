@@ -9,6 +9,8 @@
 (when (file-exists-p custom-file)
   (load custom-file))
 
+(require 'init-magit)
+
 (require 'init-popwin)
 
 (require 'init-visual-regexp)
