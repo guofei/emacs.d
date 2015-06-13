@@ -24,6 +24,7 @@
 (require 'init-yasnippet)
 
 (require 'init-clang-complete)
+;;(require 'init-irony)
 
 (require 'init-highlightindentation)
 
