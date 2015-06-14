@@ -5,3 +5,5 @@ eshell
 elpa/
 url/
 semanticdb/
+/el-get/
+/el-get-init-files/*.elc

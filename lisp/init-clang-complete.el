@@ -3,7 +3,7 @@
 (require 'auto-complete-clang-async)
 
 (defun ac-clang-mode-setup ()
-  (setq ac-clang-complete-executable "~/.emacs.d/plugins/emacs-clang-complete-async/clang-complete")
+  (setq ac-clang-complete-executable "/usr/local/bin/clang-complete")
   (setq ac-sources
   	(append '(ac-source-clang-async) ac-sources))
   ;; (setq ac-sources '(ac-source-clang-async))
