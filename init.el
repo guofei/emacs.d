@@ -38,8 +38,6 @@
 
 ;;(require 'init-popup)
 
-;;(require 'init-autocomplete)
-
 (require 'init-yasnippet)
 
 (require 'init-clang-complete)
