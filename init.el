@@ -14,6 +14,8 @@
 (el-get 'sync)
 
 (el-get-bundle auto-complete)
+(el-get-bundle helm)
+(el-get-bundle magit)
 
 ;;; end el-get
 
@@ -28,13 +30,13 @@
 (when (file-exists-p custom-file)
   (load custom-file))
 
-(require 'init-magit)
+;;(require 'init-magit)
 
 (require 'init-popwin)
 
 (require 'init-visual-regexp)
 
-(require 'init-helm)
+;;(require 'init-helm)
 
 ;;(require 'init-popup)
 

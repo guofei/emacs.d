@@ -22,9 +22,6 @@
 [submodule "plugins/multiple-cursors"]
 	path = plugins/multiple-cursors
 	url = https://github.com/magnars/multiple-cursors.el.git
-[submodule "plugins/helm"]
-	path = plugins/helm
-	url = https://github.com/emacs-helm/helm.git
 [submodule "plugins/helm-etags-plus"]
 	path = plugins/helm-etags-plus
 	url = https://github.com/jixiuf/helm-etags-plus.git
