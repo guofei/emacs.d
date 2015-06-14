@@ -22,18 +22,9 @@
 [submodule "plugins/multiple-cursors"]
 	path = plugins/multiple-cursors
 	url = https://github.com/magnars/multiple-cursors.el.git
-[submodule "plugins/helm-etags-plus"]
-	path = plugins/helm-etags-plus
-	url = https://github.com/jixiuf/helm-etags-plus.git
-[submodule "plugins/helm-gtags"]
-	path = plugins/helm-gtags
-	url = https://github.com/syohex/emacs-helm-gtags.git
 [submodule "plugins/popwin"]
 	path = plugins/popwin
 	url = https://github.com/m2ym/popwin-el.git
-[submodule "plugins/helm-rails"]
-	path = plugins/helm-rails
-	url = https://github.com/asok/helm-rails.git
 [submodule "plugins/highlight-parentheses"]
 	path = plugins/highlight-parentheses
 	url = https://github.com/nschum/highlight-parentheses.el.git

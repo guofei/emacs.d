@@ -1,7 +1,5 @@
 ;;brew install global or apt-get install global
 
-(add-to-list 'load-path "~/.emacs.d/plugins/helm-gtags")
-
 ;;(require 'helm-config)
 (require 'helm-gtags)
 
@@ -32,4 +30,3 @@
      (define-key helm-gtags-mode-map (kbd "C-c >") 'helm-gtags-next-history)
      (define-key helm-gtags-mode-map (kbd "M-*") 'helm-gtags-pop-stack)))
 
-(provide 'init-helm-gtags)

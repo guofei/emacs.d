@@ -15,6 +15,8 @@
 
 (el-get-bundle auto-complete)
 (el-get-bundle helm)
+(el-get-bundle helm-gtags)
+(el-get-bundle helm-rails)
 (el-get-bundle magit)
 
 ;;; end el-get
@@ -30,15 +32,10 @@
 (when (file-exists-p custom-file)
   (load custom-file))
 
-;;(require 'init-magit)
-
 (require 'init-popwin)
+(require 'init-popup)
 
 (require 'init-visual-regexp)
-
-;;(require 'init-helm)
-
-;;(require 'init-popup)
 
 (require 'init-yasnippet)
 
@@ -47,10 +44,7 @@
 
 (require 'init-highlightindentation)
 
-(require 'init-helm-gtags)
-
 (require 'init-emacs-rails)
-(require 'init-helm-rails)
 (require 'init-rhtml-mode)
 ;;(require 'init-web-mode)
 (require 'init-emmet-mode)
