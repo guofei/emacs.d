@@ -34,9 +34,6 @@
 [submodule "plugins/yasnippets-rails"]
 	path = plugins/yasnippets-rails
 	url = https://github.com/eschulte/yasnippets-rails.git
-[submodule "plugins/emmet-mode"]
-	path = plugins/emmet-mode
-	url = https://github.com/smihica/emmet-mode.git
 [submodule "plugins/web-mode"]
 	path = plugins/web-mode
 	url = https://github.com/fxbois/web-mode.git

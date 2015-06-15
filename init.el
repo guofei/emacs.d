@@ -19,6 +19,8 @@
 (el-get-bundle helm-rails)
 (el-get-bundle magit)
 
+(el-get-bundle emmet-mode)
+
 ;;; end el-get
 
 ;;; This file bootstraps the configuration, which is divided into
@@ -47,7 +49,7 @@
 (require 'init-emacs-rails)
 (require 'init-rhtml-mode)
 ;;(require 'init-web-mode)
-(require 'init-emmet-mode)
+;;(require 'init-emmet-mode)
 ;;(require 'init-ac-emmet)
 (require 'init-yaml-mode)
 (require 'init-coffee-mode)
