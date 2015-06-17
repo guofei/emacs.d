@@ -67,12 +67,12 @@
 (setq-default ispell-program-name "aspell")
 
 ;; CEDET
-(semantic-mode 1)
-(global-ede-mode 1)
-(global-semantic-idle-scheduler-mode 1)
-(defun semantic-auto-complete()
-  (add-to-list 'ac-sources 'ac-source-semantic))
-(add-hook 'c-mode-common-hook 'semantic-auto-complete)
+;; (semantic-mode 1)
+;; (global-ede-mode 1)
+;; (global-semantic-idle-scheduler-mode 1)
+;; (defun semantic-auto-complete()
+;;   (add-to-list 'ac-sources 'ac-source-semantic))
+;; (add-hook 'c-mode-common-hook 'semantic-auto-complete)
 
 ;; define function to shutdown emacs server instance
 (defun server-shutdown ()
@@ -80,3 +80,5 @@
   (interactive)
   (save-some-buffers)
   (kill-emacs))
+
+(setq mac-option-modifier 'meta)
