@@ -7,9 +7,9 @@
 (add-hook 'c-mode-hook 'helm-gtags-mode)
 (add-hook 'c++-mode-hook 'helm-gtags-mode)
 (add-hook 'asm-mode-hook 'helm-gtags-mode)
-(add-hook 'go-mode-hook 'helm-gtags-mode)
-(add-hook 'python-mode-hook 'helm-gtags-mode)
-(add-hook 'ruby-mode-hook 'helm-gtags-mode)
+;;(add-hook 'go-mode-hook 'helm-gtags-mode)
+;;(add-hook 'python-mode-hook 'helm-gtags-mode)
+;;(add-hook 'ruby-mode-hook 'helm-gtags-mode)
 (add-hook 'php-mode-hook 'helm-gtags-mode)
 (add-hook 'java-mode-hook 'helm-gtags-mode)
 
