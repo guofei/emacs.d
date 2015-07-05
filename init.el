@@ -14,11 +14,11 @@
 (el-get 'sync)
 
 (el-get-bundle auto-complete)
+;;(el-get-bundle company-mode)
 (el-get-bundle helm)
 (el-get-bundle helm-gtags)
 (el-get-bundle helm-rails)
 (el-get-bundle magit)
-
 (el-get-bundle emmet-mode)
 
 ;;; end el-get
@@ -34,21 +34,21 @@
 (when (file-exists-p custom-file)
   (load custom-file))
 
-(require 'init-popwin)
-(require 'init-popup)
+;;(require 'init-popwin)
+;;(require 'init-popup)
 
 (require 'init-visual-regexp)
 
 (require 'init-yasnippet)
 
-(require 'init-clang-complete)
+;;(require 'init-clang-complete)
 ;;(require 'init-irony)
 
 (require 'init-highlightindentation)
 
 ;;(require 'init-emacs-rails)
-(require 'init-rhtml-mode)
-;;(require 'init-web-mode)
+;;(require 'init-rhtml-mode)
+(require 'init-web-mode)
 ;;(require 'init-ac-emmet)
 (require 'init-yaml-mode)
 (require 'init-coffee-mode)
