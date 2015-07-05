@@ -51,7 +51,7 @@
 
 ;;(require 'init-emacs-rails)
 ;;(require 'init-rhtml-mode)
-(require 'init-web-mode)
+;;(require 'init-web-mode)
 ;;(require 'init-ac-emmet)
 (require 'init-yaml-mode)
 (require 'init-coffee-mode)
