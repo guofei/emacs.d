@@ -19,6 +19,7 @@
 (el-get-bundle helm-gtags)
 (el-get-bundle helm-rails)
 (el-get-bundle magit)
+(el-get-bundle helm-ls-git)
 (el-get-bundle web-mode)
 (el-get-bundle emmet-mode)
 
