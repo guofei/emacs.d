@@ -22,6 +22,7 @@
 (el-get-bundle helm-ls-git)
 (el-get-bundle web-mode)
 (el-get-bundle emmet-mode)
+(el-get-bundle flycheck)
 
 ;;; end el-get
 
