@@ -18,6 +18,7 @@
 (el-get-bundle helm)
 (el-get-bundle helm-gtags)
 (el-get-bundle helm-rails)
+;;(el-get-bundle rinari)
 (el-get-bundle magit)
 (el-get-bundle helm-ls-git)
 (el-get-bundle web-mode)
@@ -59,7 +60,7 @@
 
 (require 'init-member-functions)
 
-(require 'init-multiple-cursors)
+;;(require 'init-multiple-cursors)
 
 (require 'init-highlight-parentheses)
 
