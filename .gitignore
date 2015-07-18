@@ -7,3 +7,4 @@ url/
 semanticdb/
 /el-get/
 /el-get-init-files/*.elc
+/.DS_Store

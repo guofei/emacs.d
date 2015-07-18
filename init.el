@@ -13,6 +13,7 @@
 (add-to-list 'el-get-recipe-path "~/.emacs.d/el-get-user/recipes")
 (el-get 'sync)
 
+(el-get-bundle popup)
 (el-get-bundle auto-complete)
 ;;(el-get-bundle company-mode)
 (el-get-bundle helm)
@@ -23,7 +24,9 @@
 (el-get-bundle helm-ls-git)
 (el-get-bundle web-mode)
 (el-get-bundle emmet-mode)
-(el-get-bundle flycheck)
+;;(el-get-bundle flycheck)
+(el-get-bundle elpa:flycheck)
+;;(el-get-bundle elpa:flycheck-pos-tip)
 
 ;;; end el-get
 
