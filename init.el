@@ -26,7 +26,7 @@
 (el-get-bundle emmet-mode)
 ;;(el-get-bundle flycheck)
 (el-get-bundle elpa:flycheck)
-;;(el-get-bundle elpa:flycheck-pos-tip)
+(el-get-bundle elpa:flycheck-pos-tip)
 
 ;;; end el-get
 
