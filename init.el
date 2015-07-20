@@ -24,6 +24,9 @@
 (el-get-bundle helm-ls-git)
 (el-get-bundle web-mode)
 (el-get-bundle emmet-mode)
+(el-get-bundle solarized-emacs)
+;;(el-get-bundle color-theme-solarized)
+
 ;;(el-get-bundle flycheck)
 (el-get-bundle elpa:flycheck)
 (el-get-bundle elpa:flycheck-pos-tip)
