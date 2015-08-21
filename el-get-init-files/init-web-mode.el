@@ -8,8 +8,34 @@
 (add-to-list 'auto-mode-alist '("\\.mustache\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.djhtml\\'" . web-mode))
 
-(defun my-web-mode-hook ()
-  "Hooks for Web mode."
-  (setq web-mode-markup-indent-offset 2)
-  )
-(add-hook 'web-mode-hook  'my-web-mode-hook)
+
+(setq web-mode-markup-indent-offset 2)
+
+
+(require 'emmet-mode)
+(add-hook 'web-mode-hook 'emmet-mode)
+
+
+;; (setq web-mode-ac-sources-alist
+;;       '(("css" . (ac-source-css-property))
+;;         ("html" . (ac-source-words-in-buffer ac-source-abbrev))))
+;;
+;; (setq web-mode-ac-sources-alist
+;;       '(("erb" . (ac-source-yasnippet ac-source-rails-auto-yasnippets))
+;;         ("html" . (ac-source-emmet-html-aliases ac-source-emmet-html-snippets))
+;;         ("css" . (ac-source-css-property ac-source-emmet-css-snippets))))
+
+(add-hook 'web-mode-before-auto-complete-hooks
+          '(lambda ()
+             (let ((web-mode-cur-language
+                    (web-mode-language-at-pos)))
+               (if (string= web-mode-cur-language "html")
+                   (yas-activate-extra-mode 'html-mode)
+                 (yas-deactivate-extra-mode 'html-mode))
+               (if (string= web-mode-cur-language "html")
+                   (yas-activate-extra-mode 'rails-mode)
+                 (yas-deactivate-extra-mode 'rails-mode))
+               (if (string= web-mode-cur-language "css")
+                   (setq emmet-use-css-transform t)
+                 (setq emmet-use-css-transform nil)))))
+
