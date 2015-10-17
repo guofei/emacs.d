@@ -23,6 +23,7 @@
 (el-get-bundle magit)
 (el-get-bundle helm-ls-git)
 (el-get-bundle web-mode)
+(el-get-bundle js2-mode)
 (el-get-bundle emmet-mode)
 (el-get-bundle haml-mode)
 (el-get-bundle solarized-emacs)

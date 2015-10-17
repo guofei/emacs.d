@@ -12,10 +12,6 @@
 (setq web-mode-markup-indent-offset 2)
 
 
-(require 'emmet-mode)
-(add-hook 'web-mode-hook 'emmet-mode)
-
-
 ;; (setq web-mode-ac-sources-alist
 ;;       '(("css" . (ac-source-css-property))
 ;;         ("html" . (ac-source-words-in-buffer ac-source-abbrev))))
@@ -39,3 +35,6 @@
                    (setq emmet-use-css-transform t)
                  (setq emmet-use-css-transform nil)))))
 
+
+(require 'emmet-mode)
+(add-hook 'web-mode-hook 'emmet-mode)
