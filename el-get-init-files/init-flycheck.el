@@ -10,7 +10,7 @@
 
 
 ;; use eslint with web-mode for jsx files
-(flycheck-add-mode 'javascript-eslint 'web-mode)
+;; (flycheck-add-mode 'javascript-eslint 'web-mode)
 
 
 ;; disable json-jsonlist checking for json files
