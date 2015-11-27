@@ -17,6 +17,16 @@
 ;;               (append flycheck-disabled-checkers
 ;;                       '(json-jsonlist)))
 
+;;(eval-after-load 'flycheck
+;;  '(setq-default flycheck-rubylintrc ".ruby-lint.yml"))
+
+;; disable rubylint
+(eval-after-load 'flycheck
+  '(setq-default flycheck-disabled-checkers
+                 (append flycheck-disabled-checkers
+                         '(ruby-rubylint))))
+
+
 ;; use eslint with web-mode for jsx files
 (eval-after-load 'flycheck
   '(flycheck-add-mode 'javascript-eslint 'web-mode))
