@@ -40,19 +40,19 @@
 ;;         ("html" . (ac-source-emmet-html-aliases ac-source-emmet-html-snippets))
 ;;         ("css" . (ac-source-css-property ac-source-emmet-css-snippets))))
 
-(add-hook 'web-mode-before-auto-complete-hooks
-          (lambda ()
-             (let ((web-mode-cur-language
-                    (web-mode-language-at-pos)))
-               (if (string= web-mode-cur-language "html")
-                   (yas-activate-extra-mode 'html-mode)
-                 (yas-deactivate-extra-mode 'html-mode))
-               (if (string= web-mode-cur-language "html")
-                   (yas-activate-extra-mode 'rails-mode)
-                 (yas-deactivate-extra-mode 'rails-mode))
-               (if (string= web-mode-cur-language "css")
-                   (setq emmet-use-css-transform t)
-                 (setq emmet-use-css-transform nil)))))
+;;(add-hook 'web-mode-before-auto-complete-hooks
+;;          (lambda ()
+;;             (let ((web-mode-cur-language
+;;                    (web-mode-language-at-pos)))
+;;               (if (string= web-mode-cur-language "html")
+;;                   (yas-activate-extra-mode 'html-mode)
+;;                 (yas-deactivate-extra-mode 'html-mode))
+;;               (if (string= web-mode-cur-language "html")
+;;                   (yas-activate-extra-mode 'rails-mode)
+;;                 (yas-deactivate-extra-mode 'rails-mode))
+;;               (if (string= web-mode-cur-language "css")
+;;                   (setq emmet-use-css-transform t)
+;;                 (setq emmet-use-css-transform nil)))))
 
 
 (require 'emmet-mode)

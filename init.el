@@ -13,9 +13,12 @@
 (add-to-list 'el-get-recipe-path "~/.emacs.d/el-get-user/recipes")
 (el-get 'sync)
 
+(el-get-bundle yasnippet)
+(el-get-bundle yasnippet-snippets)
 (el-get-bundle popup)
-(el-get-bundle auto-complete)
-;;(el-get-bundle company-mode)
+;;(el-get-bundle auto-complete)
+(el-get-bundle company-mode)
+(el-get-bundle company-irony)
 (el-get-bundle helm)
 (el-get-bundle helm-gtags)
 (el-get-bundle helm-rails)
@@ -48,33 +51,25 @@
 (when (file-exists-p custom-file)
   (load custom-file))
 
+;;(require 'init-yasnippet)
 ;;(require 'init-popwin)
 ;;(require 'init-popup)
-
-(require 'init-visual-regexp)
-
-(require 'init-yasnippet)
-
 ;;(require 'init-clang-complete)
 ;;(require 'init-irony)
-
-(require 'init-highlightindentation)
-
 ;;(require 'init-emacs-rails)
 ;;(require 'init-rhtml-mode)
 ;;(require 'init-web-mode)
 ;;(require 'init-ac-emmet)
+;;(require 'init-multiple-cursors)
+;;(require 'init-judgeindent)
+
+(require 'init-visual-regexp)
+(require 'init-highlightindentation)
 (require 'init-yaml-mode)
 (require 'init-coffee-mode)
 (require 'init-golang)
-
 (require 'init-member-functions)
-
-;;(require 'init-multiple-cursors)
-
 (require 'init-highlight-parentheses)
-
-;;(require 'init-judgeindent)
 
 ;; requre Mac OS X
 ;;(if (eq system-type 'darwin)
