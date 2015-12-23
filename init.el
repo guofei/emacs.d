@@ -33,6 +33,7 @@
 (el-get-bundle solarized-emacs)
 ;;(el-get-bundle color-theme-solarized)
 (el-get-bundle elixir)
+(el-get-bundle alchemist)
 
 ;;(el-get-bundle flycheck)
 (el-get-bundle elpa:flycheck)
