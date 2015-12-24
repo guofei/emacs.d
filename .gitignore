@@ -8,3 +8,6 @@ semanticdb/
 /el-get/
 /el-get-init-files/*.elc
 /.DS_Store
+irony/
+semanticdb_backup/
+/semanticdb_backup/!Users!kaku!.emacs.d!plugins!helm-gtags!semantic.cache
