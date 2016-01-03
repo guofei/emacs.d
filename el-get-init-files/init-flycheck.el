@@ -29,7 +29,8 @@
 
 ;; use eslint with web-mode for jsx files
 (eval-after-load 'flycheck
-  '(flycheck-add-mode 'javascript-eslint 'web-mode))
+  '(when (equal web-mode-content-type "jsx")
+       (flycheck-add-mode 'javascript-eslint 'web-mode)))
 
 
 (eval-after-load 'flycheck
