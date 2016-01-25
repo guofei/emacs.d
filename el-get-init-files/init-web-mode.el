@@ -11,6 +11,7 @@
 (add-to-list 'auto-mode-alist '("\\android.js\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\ios.js\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.eex\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.jsx\\'" . web-mode))
 
 
 ;; adjust indents for web-mode to 2 spaces
@@ -20,7 +21,8 @@
   (setq web-mode-attr-indent-offset 2)
   (setq web-mode-markup-indent-offset 2)
   (setq web-mode-css-indent-offset 2)
-  (setq web-mode-code-indent-offset 2))
+  (setq web-mode-code-indent-offset 2)
+  (setq indent-tabs-mode nil))
 (add-hook 'web-mode-hook 'web-mode-indent-hook)
 
 
