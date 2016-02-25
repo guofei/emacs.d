@@ -7,9 +7,6 @@
 [submodule "plugins/rails-minor-mode"]
 	path = plugins/rails-minor-mode
 	url = git://github.com/remvee/emacs-rails.git
-[submodule "plugins/rhtml-minor-mode"]
-	path = plugins/rhtml-minor-mode
-	url = git://github.com/eschulte/rhtml.git
 [submodule "plugins/yaml-mode"]
 	path = plugins/yaml-mode
 	url = https://github.com/yoshiki/yaml-mode.git
