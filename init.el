@@ -15,6 +15,7 @@
 
 (el-get-bundle alchemist)
 (el-get-bundle company-mode)
+(el-get-bundle irony-mode)
 (el-get-bundle company-irony)
 (el-get-bundle elixir)
 (el-get-bundle emmet-mode)
@@ -32,8 +33,12 @@
 (el-get-bundle yasnippet)
 (el-get-bundle yasnippet-snippets)
 
+(el-get-bundle flycheck)
+(el-get-bundle flycheck-irony)
+
 ;;; elpa
-(el-get-bundle elpa:flycheck)
+;;; (el-get-bundle elpa:flycheck)
+
 ;;; (el-get-bundle flycheck)
 ;;; (el-get-bundle flycheck-pos-tip)
 ;;; (el-get-bundle auto-complete)
