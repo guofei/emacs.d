@@ -12,7 +12,9 @@
  '(helm-mini-default-sources
    (quote
     (helm-source-buffers-list helm-source-recentf helm-source-files-in-current-dir)))
- '(inhibit-startup-screen t))
+ '(inhibit-startup-screen t)
+ '(irony-additional-clang-options (quote ("-std=c++11")))
+ '(package-selected-packages (quote (pos-tip inflections gist flycheck))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
