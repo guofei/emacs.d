@@ -20,6 +20,7 @@
 (el-get-bundle company-irony)
 (el-get-bundle elixir)
 (el-get-bundle emmet-mode)
+(el-get-bundle expand-region)
 (el-get-bundle haml-mode)
 (el-get-bundle helm)
 (el-get-bundle helm-gtags)
