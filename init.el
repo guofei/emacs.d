@@ -14,6 +14,7 @@
 (el-get 'sync)
 
 (el-get-bundle evil)
+(el-get-bundle evil-escape)
 (el-get-bundle alchemist)
 (el-get-bundle company-mode)
 (el-get-bundle irony-mode)
