@@ -2,6 +2,7 @@ emacs.d
 =======
 ## install global
 ```
+brew install hg
 brew install global
 brew install aspell
 ```
